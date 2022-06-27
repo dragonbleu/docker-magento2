@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.5.4
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.17
 
 RUN elasticsearch-plugin install analysis-phonetic \
     && elasticsearch-plugin install analysis-icu
